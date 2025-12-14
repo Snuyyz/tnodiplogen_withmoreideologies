@@ -68,7 +68,7 @@ const uniao_de_defesa_sul_americana = ['Hegemon of South America (Cayenne)','Heg
 const west_african_alliance = ['Signatory of the West African Alliance','West African Protectorate']
 const west_african_federation = ['Member of the West African Federation','West African Supervised State']
 const statusGroups = [no_faction,0,alianza_del_plata,0,0,0,dai_toa_kyoeiken,einheitspakt,0,french_community,french_military_alliance,front_indonesia_merdeka,0,0,imperial_alliance,0,0,mediterranean_bloc,0,negara_kesatuan_republik_indonesia,organization_of_free_nations,pan_african_liberation_front,0,rome_pact,0,triumvirate,uniao_de_defesa_sul_americana,0,0,0,west_african_alliance,west_african_federation]
-const colors = ["#1e0d0a", "#281714", "#32211e", "#3c2b28", "#463532", "#46190f", "#502319", "#6e2d23", "#64372d", "6e4137", "#0f0f0f", "#191919", "#414141", "#656565", "#1a1a65", "#2f367f", "#4e5b89", "#9a2b4d", "#852121", "#611717"]
+const colors = ["#1e0d0a", "#281714", "#32211e", "#3c2b28", "#463532", "#46190f", "#502319", "#6e2d23", "#64372d", "#6e4137", "#0f0f0f", "#191919", "#414141", "#656565", "#1a1a65", "#2f367f", "#4e5b89", "#9a2b4d", "#852121", "#611717"]
 function show(page) {
     document.addEventListener('DOMContentLoaded', () => {
         const partyEl = document.getElementById('party')
