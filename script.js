@@ -535,7 +535,7 @@ fetch('./descriptions.json')
     .then(response => response.json())
     .then(data => descriptions = data)
     .catch(err => console.error('Error loading descriptions:', err))
-let percentages = [5, 5, 0, 0, 0, 0, 10, 10, 15, 40, 15]
+let percentages = [5, 5, 0, 0, 0, 0, 10, 10, 15, 40, 15, 0, 0, 0, 0, 0]
 let lockedPercentages = new Array(colors.length).fill(false)
 function createInputs() {
     const toolsDiv = document.getElementById("popularityTools")
