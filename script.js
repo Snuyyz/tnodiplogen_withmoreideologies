@@ -545,7 +545,7 @@ fetch('./descriptions.json')
     .then(response => response.json())
     .then(data => descriptions = data)
     .catch(err => console.error('Error loading descriptions:', err))
-let percentages = [5, 5, 0, 0, 0, 0, 10, 10, 15, 40, 15, 0, 0, 0, 0, 0]
+let percentages = [5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5]
 let lockedPercentages = new Array(colors.length).fill(false)
 function createInputs() {
     const toolsDiv = document.getElementById("popularityTools")
@@ -678,7 +678,7 @@ function createInputs() {
 }
 function ideologizePercentages() {
     if (selectedIdeology < 0 || lockedPercentages.some(locked => locked)) return
-    const pattern = [2, 3, 5, 10, 15, 30, 15, 10, 5, 3, 2]
+    const pattern = [5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5]
     let remaining = 100
     for (let i = 0; i < ideologies.length; i++) {
         if (lockedPercentages[i]) remaining -= percentages[i]
